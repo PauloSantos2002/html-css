@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+   
+   <!-- Este é o principio para a criação de menus em sites-->
+    <style>
+       body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+        
+        div{
+            width: 150px;
+            background-color: lightcyan;
+        }
+        div > p{
+        display: none;
+       }
+        div:hover > p{
+        color: red;
+        display: block;
+        }
+        div:hover{
+            color:red;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+        <p>Passe o mouse SOBRE O TEXTO ABAIXO!</p>
+        <div>
+            Passe mouse aqui[x]
+            <p>Texto escondido...</p>
+        </div>
+</body>
+</html>

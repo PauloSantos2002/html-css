@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <!--  SELETORES PERSONALIZADOS
+        #  = ID
+        .  = Class
+        :  = Pseudo-Class
+        :: = Pseudo-Element
+        >  = Children "Herança"
+    -->
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color:darkred;
+        }
+
+        a:hover{
+            color: rgb(78, 230, 18);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color:rgb(16, 19, 231)
+        }
+
+        a::after{
+            content: '✔';
+            color: lightcoral;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com"  target="_blank">YouTube</a></li>
+        <li><a href="https://wikipedia.com" target="_blank">Wikipedia</a></li>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">GitHub Guanabara</a></li>
+    </ul>
+</body>
+</html>

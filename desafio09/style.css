@@ -1,0 +1,15 @@
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to left, #3934FF,#2354E8,#2695FF);
+    background-attachment: fixed;
+}
+h1{
+    background-color: #0f35a5;
+    color: whitesmoke;
+}
+main{
+    background-color: #0f35a5;
+    text-align: center;
+    
+}
