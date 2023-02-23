@@ -35,19 +35,32 @@ a:hover{
 section{
     padding: 10vh 0px 10vh 30px;
     line-height: 2em;
+
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 section.normal{
     background-color: white;
     color: black;
 }
 section.imagem{
-    background-color: rgb(51, 51, 51);
+
     color: white;
 }
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.349);
     width: 400px;
     border-radius: 10px;
+}
+section#imagem1{
+    background-image: url('../imagens/background001.jpg');
+
+}
+section#imagem2{
+    background-image: url('../imagens/background002.jpg');
 }
 
 /* rodape */
