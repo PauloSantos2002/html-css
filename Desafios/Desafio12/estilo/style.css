@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+
+}
+
+html body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+/* cabeçalho */
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+header > h1 {
+    font-variant: small-caps;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/* Corpo */
+
+section{
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* rodape */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
