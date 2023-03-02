@@ -20,6 +20,8 @@ header{
 }
 header > h1 {
     font-variant: small-caps;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
 }
 
 a{
@@ -34,7 +36,7 @@ a:hover{
 
 section{
     padding: 10vh 0px 10vh 30px;
-    line-height: 2em;
+    line-height: 2.5em;
 
     background-size: cover;
     background-attachment: fixed;
@@ -50,10 +52,17 @@ section.imagem{
 
     color: white;
 }
-section.imagem p{
-    background-color: rgba(0, 0, 0, 0.349);
+main p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 2em;
     width: 400px;
     border-radius: 10px;
+    padding: 10px;
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.349);
+
 }
 section#imagem1{
     background-image: url('../imagens/background001.jpg');
