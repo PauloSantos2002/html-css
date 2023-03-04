@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    color:black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,14 +21,31 @@ header{
     justify-content: space-between;
     align-items: center;
     font-size: 1.5em;
-    padding: 0px 30px;
+    padding: 0px 80px;
     height: 65px;
 }
 .logo a{
     color: var(--cor4);
-
+    font-size: 0.8em;
 }
-
+.botoes_cabecalho{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.sing{
+    background-color: var(--cor2);
+    color: var(--cor4);
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+.submit{
+    background-color: rgb(31, 30, 30);
+    color: var(--cor4);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: solid var(--cor4);
+}
 /* pesquisa */
 .pesquisa{
     height: 300px;
@@ -50,5 +66,54 @@ header{
 input{
     margin-left: auto;
     margin-right: auto;
-    max-width: 720px;
+    
+    width: 550px;
+    height: 50px;
+    
+    border-radius: 3px;
+    font-size: 1.5em;
+}
+
+/* Conteudo do site */
+
+.imagens_item{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.conteudo{
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+.conteudo_itens{
+    width: 400px;
+    margin: 30px;
+}
+.conteudo_itens{
+    display: flex;
+}
+.titulo_itens{
+    font-weight: bold;
+}
+.paragrafo_itens{
+    margin: 20px;
+
+}
+/* Rodapé */
+
+footer{
+    background-color: var(--cor1);
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 80px;
+    font-size: 0.8em;
+}
+footer ul li a{
+    color: var(--cor4);
+}
+h3{
+    color: var(--cor4);
+    margin-bottom: 15px;
 }

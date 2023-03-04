@@ -23,7 +23,7 @@ header{
 header > h1 {
     font-variant: small-caps;
     font-family: 'Passion One', cursive;
-    font-size: 3em;
+    font-size: 15vh;
 }
 
 a{
@@ -40,11 +40,8 @@ section{
     padding: 10vh 0px 10vh 30px;
     line-height: 2.5em;
 
-    background-size: cover;
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-
+    background-attachment: fixed;
 }
 section.normal{
     background-color: white;
@@ -58,12 +55,12 @@ main p{
     font-weight: bolder;
     font-size: 1.5em;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
 }
 section.imagem p{
     max-width: 400px;
     background-color: rgba(0, 0, 0, 0.349);
-
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.644);
 }
 section#imagem1{
     background-image: url('../imagens/background001.jpg');
