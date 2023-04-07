@@ -7,21 +7,33 @@
     <title>Tabelas</title>
 </head>
 <body>
+    <h1>Produtos</h1>
     <table border="1px ">
         <tr> 
-            <th>Item</th>
             <th>Código</th>
+            <th>Item</th>
             <th>Preço</th>
         </tr>
         <tr>
-            <td>Computador</td>
             <td>001</td>
+            <td>Computador</td>
             <td>R$2500,00</td>
         </tr>
         <tr>
-            <td>Celular</td>
             <td>002</td>
+            <td>Celular</td>
             <td>R$1500,00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">Cupom 01 - R$10,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cupom 02 - R$20,00</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td colspan="2"> R$3100,00</td>
         </tr>
     </table>
 </body>
