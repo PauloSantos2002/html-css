@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        /* 
+        Em relação aos tamanhos
+        
+        px: tamanho fixo;
+        %(porcentagem): tamanho relativo;
+        em: tamnho relativo ao container pai;
+        */
+        body{
+            background-color: rgb(199, 178, 150);
+            font-size: 40px;
+        }
+        #titulo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+        .conteudo1{
+            font-size: 1em;
+            font-family: 'Courier New', Courier, monospace;
+            
+            margin-top: 5px;
+            padding-top: 5px;
+            text-align: center;
+        }
+        .conteudo2{
+            font-family: Arial, sans-serif;
+            font-size: 0.5em;
+            line-height: 30px;
+            padding: 10px;
+            margin: 10px auto;
+            text-align: justify;
+            width: 700px;
+        }
+        .italic{
+            font-style: italic;
+        }
+        .negrito{
+            font-weight: 900;
+        }
+        .formatacao{
+            text-decoration: underline;
+        }
+    </style>
+    <title>Fontes, Cores e Tamanho</title>
+</head>
+<body>
+    <div id="conteudo">
+        <h1 id="titulo">Fontes</h1>
+        <p class="conteudo1">Para usar ao dia-a-dia</p>
+        <p class="conteudo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, harum! Distinctio <span class="italic">quibusdam</span> omnis corporis similique consequatur, nesciunt adipisci ratione nam eveniet, necessitatibus quis quidem! Ipsa dicta<span class="negrito"> reiciendis</span> explicabo ex aspernatur?</p>
+        <p class="conteudo2"><span class="formatacao">Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Repellendus numquam adipisci porro in non neque ipsam debitis eveniet minus modi repudiandae, voluptatibus nobis quaerat alias est veniam! Laborum, vel aut.</p>
+    </div>
+</body>
+</html>
