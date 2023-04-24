@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titulo{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 50px;
+}
+#texto{
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+a{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    display: block;
+    max-width: 100px;
+    margin: 25px auto;
+    text-align: center;
+}
