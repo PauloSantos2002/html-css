@@ -8,11 +8,14 @@ body{
     max-width: 900px;
     display: block;
     margin: 0px auto;
+
+    height: 100vh;
 }
 
 nav{
     background-color: #c5c5b2;
     padding: 18px;
+    color: #4b566a;
 }
 a{
     color: #4b566a;
@@ -23,13 +26,18 @@ a{
 
 main{
     background-color: #e8e8d9;
-    padding: 30px;
+    padding: 15px;
 }
 h1{
     margin-bottom: 20px;
 }
+p{
+    margin: 10px;
+}
 .fotos{
-    margin: 10px 0px;
+    margin: 5px 0px;
+    border: 5px solid #353528;
+
 }
 footer{
     text-align: center;
