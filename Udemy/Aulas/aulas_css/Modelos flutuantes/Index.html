@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuantes</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-size: 16px;
+        }
+        header{
+            background-color: rgb(80, 96, 151);
+            padding: 20px;
+            text-align: center;
+        }
+        h1{
+            font-size: 4em;
+            color: aliceblue;
+        }
+        
+        .caixa1{
+            background-color: rgb(167, 167, 236);
+            
+        }
+        .conteudo{
+            background-color: blue;
+            border: 2px solid black;
+
+            width: 300px;
+            height: 350px;
+            
+            margin: 5px;
+            /*A propriedade float do CSS determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, onde textos e elementos em linha irão se posicionar ao seu redor.*/
+            float: left;
+            border-radius: 20px;
+        }
+        img{
+            display: block;
+            margin: 20px auto;
+            border-radius: 20px;
+            border: 2px solid;
+        }
+        p{
+            font-size: 1.3em;
+            padding: 20px;
+            text-align: justify;
+        }
+        .clear{
+            /*A propiedade Clear é para tirar a caracteristica float de alguma div, para alguns casos é util quando vai aplicar float em divs dentro de outras divs, pois só assim que a div pai sobresai sobre a div filha*/
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><Strong>L O G O</Strong></h1>
+    </header>
+    <main>
+        <div class="caixa1">
+                <div class="conteudo">
+                <img src="https://images.unsplash.com/photo-1533450718592-29d45635f0a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="" width="250px">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellat quidem eos, animi aspernatu.</p>
+                </div>
+                <div class="conteudo">
+                    <img src="https://images.unsplash.com/photo-1533450718592-29d45635f0a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="" width="250px">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellat quidem eos, animi aspernatu.</p>
+                </div>
+                <div class="conteudo">
+                    <img src="https://images.unsplash.com/photo-1533450718592-29d45635f0a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="" width="250px">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellat quidem eos, animi aspernatu.</p>
+                </div>
+                <div class="conteudo">
+                    <img src="https://images.unsplash.com/photo-1533450718592-29d45635f0a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8anBnfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="" width="250px">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel repellat quidem eos, animi aspernatu.</p>
+                </div>
+                <div class="clear"></div>
+        </div>
+    </main>
+</body>
+</html>
