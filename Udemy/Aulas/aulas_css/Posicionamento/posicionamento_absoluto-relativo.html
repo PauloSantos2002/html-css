@@ -1,64 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posicionamento</title>
     <style>
-        body{
+        body {
             background: #0070cf;
         }
-        #conteiner{
+
+        #topo {
+            background: #852d40;
+            color: white;
+            width: 100%;
+            z-index: 2;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+        }
+
+        #conteiner {
             background: #fff;
             width: 80%;
             max-width: 500px;
             margin: 80px auto;
-
             padding: 20px;
+
+            position: relative;
         }
 
-        h1{
+        h1 {
             text-align: center;
             font-size: 2.5em;
         }
-        p{
+
+        p {
             width: 95%;
         }
-        #topo{
-            position: fixed;
-            left: 0px;
-            top: 0px;
+
+        img {
             width: 100%;
-            margin: 0px;
-            background: #852d40;
+
         }
-        .estatico{
+        iframe{
+            width: 100%;
+        }
+        /* .estatico{
             background: #0070cf;
             position: static;
-        }
-        .relativo{
+        } */
+        /* .relativo{
             border: apx solid red;
             position: relative;
-            /* top, right, bottom e left*/
+            top, right, bottom e left
             bottom: 20px
-        }
+        } */
     </style>
 </head>
+
 <body>
     <div id="topo">
         <h1>L O G O</h1>
     </div>
     <div id="conteiner">
         <h1>Posicionamentos</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam officiis placeat aliquid sunt ad quam non nostrum dolore inventore voluptatem, dolorem consectetur sed totam fugiat quas esse ex quidem veritatis.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam officiis placeat aliquid sunt ad quam non
+            nostrum dolore inventore voluptatem, dolorem consectetur sed totam fugiat quas esse ex quidem veritatis.</p>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis tenetur temporibus voluptate eos voluptatum magni quod consequuntur soluta illo repudiandae minima error debitis vero cupiditate corrupti omnis, unde labore. Quo.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit itaque.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit itaque.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit itaque.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit itaque.</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit itaque.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis tenetur temporibus voluptate eos
+            voluptatum magni quod consequuntur soluta illo repudiandae minima error debitis vero cupiditate corrupti
+            omnis, unde labore. Quo.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum
+            voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit
+            itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum
+            voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit
+            itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum
+            voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit
+            itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum
+            voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit
+            itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad corporis voluptate consectetur quasi cum
+            voluptatem quis. Tempore, rerum voluptatum qui fugiat dicta et cupiditate iste numquam neque magni suscipit
+            itaque.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Earth_Eastern_Hemisphere.jpg" alt="">
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/62KT2BUgmkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>Este video me ajudou a entender melhor os posicionamentos fixo, relativo e absoluto</p>
     </div>
 </body>
+
 </html>
