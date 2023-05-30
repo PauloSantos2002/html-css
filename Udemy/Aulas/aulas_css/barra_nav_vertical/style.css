@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 20px;
+}
+img{
+    width: 20px;
+    margin-right: 5px;
+}
+ul a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: url(menu.png) no-repeat left;
+    
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul a:hover{
+    background-position: right;
+}
+a{
+    display: block;
+    max-width: 100px;
+    color: red;
+    text-decoration: none;
+    
+}
