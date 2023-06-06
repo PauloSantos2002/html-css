@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(216, 213, 213);
+}
+header{
+    background-color: #fbb600;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+/* caso queira um menu lateral deixe o flex-direction colum, caso queira menu horizontal flex-direction row */
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    
+}
+a{
+    border-left-style: groove;
+    border-color: rgba(141, 92, 1, 0.26);
+}
+ul a{
+    width: 200px;
+    height: 40px;
+    background: url(menu.png) no-repeat left;
+    background-color: #fbb600;
+    list-style: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul a:hover{
+    background-color: #f99200;
+    background-position: right;
+    scale: 1.1;
+}
+
+#home .home,
+#sobre .sobre, 
+#servicos .servicos,
+#noticias .noticias,
+#contatos .contatos{
+    background-color: #f99200;
+    background-position: right;
+}
