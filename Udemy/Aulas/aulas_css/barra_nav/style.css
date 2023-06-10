@@ -22,6 +22,7 @@ a{
 ul {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 5px;
     
 }
@@ -31,19 +32,24 @@ a{
 }
 ul a{
     width: 200px;
-    height: 40px;
-    background: url(menu.png) no-repeat left;
+    height: 65px;
+
     background-color: #fbb600;
     list-style: none;
     
+    border-radius: 10px 10px 0 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: height 1s;
+    transition-delay: 0.2s;
 }
 ul a:hover{
     background-color: #f99200;
     background-position: right;
-    scale: 1.1;
+    height: 80px;
 }
 
 #home .home,
@@ -53,4 +59,13 @@ ul a:hover{
 #contatos .contatos{
     background-color: #f99200;
     background-position: right;
+}
+
+main{
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 1px 1px 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.315);
 }
