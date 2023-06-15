@@ -1,0 +1,60 @@
+body{
+    height: 78.9vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* background: #643d87 url(arquivos-necessarios-estilizando-formularios-parte2/fundo.jpg) no-repeat top center;     */
+    background-image: linear-gradient(to bottom, #ffb520, #b86902);
+    background-repeat: no-repeat;
+
+}
+main{
+    width: 60%;
+    height: 300px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+main > img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+
+}
+input{
+    height: 40px;
+    width: 80%;
+    max-width: 500px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background: #fff;
+    padding-left: 40px;
+    border: none;
+}
+input:hover{
+    background-color: rgba(245, 149, 24, 0.575);
+    color: white;
+}
+input#email{
+    background-image: url(arquivos-necessarios-estilizando-formularios-parte2/icone-usuario.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+input#senha{
+    background-image: url(arquivos-necessarios-estilizando-formularios-parte2/icone-cadeado.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+input.submit{
+    background-color: rgb(228, 109, 29);
+    color: white;
+    width: 90%;
+    height: 50px;
+    border: 2px solid rgb(190, 89, 21);
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+input.submit:hover{
+    background-color: rgb(172, 82, 23);
+}

@@ -1,0 +1,28 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #e6e5e56b;
+
+    margin-bottom: 25px;
+}
+legend{
+    font-weight: bold;
+}
+label, input{
+    cursor: pointer;
+}
+.labelContato{
+    display: block;
+
+    width: 30%;
+}
+.inputContato{
+    width: 30%;
+}
+textarea{
+    width: 90%;
+    height: 8em;
+}
