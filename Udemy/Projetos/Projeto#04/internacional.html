@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Noticias Cidade</title>
 </head>
-<body id="internacional">
+
+<body id="internacional" class="duas-colunas">
     <div id="conteiner">
         <header>
             <h1 class="logo">Noticias Cidade</h1>
@@ -36,11 +38,69 @@
                 </ul>
             </nav>
         </header>
-
         <main>
-            <section id="primario">conteudo1</section>
-            <section id="secundario">conteudo2</section>
-            <section id="lateral">conteudo3</section>
+
+            <!-- 2º -->
+            <section id="primario">
+                <article class="caixa-conteudo">
+                    <h2 class="titulo-conteudo">Tecnologia</h2>
+                    <picture>
+                        <img src="imagens/tecnologia.jpg" alt="foto doutor" class="foto">
+                    </picture>
+                    <p class="paragrafo-conteudo">Lorem ipsum dolor, sit amet consectetur adipisicing elitit. <br> <a
+                            href="#">Leia mais!</a></p>
+
+                </article>
+                <article class="lista-noticias">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="imagens/mundo.jpg" alt="">
+                                <h3>Noticias</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="imagens/mundo.jpg" alt="">
+                                <h3>Noticias</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="imagens/mundo.jpg" alt="">
+                                <h3>Noticias</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing.</p>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </section>
+            <section id="lateral">
+                <aside class="caixa-conteudo">
+                    <h2 class="titulo-conteudo">Entrevistas</h2>
+                    <ul>
+                        <li>José aldo</li>
+                        <li>Rubinho</li>
+                        <li>João frango</li>
+                        <li>fernando pessoa</li>
+                        <li>alice moaraes</li>
+                        <li>Pablo picasso</li>
+                        <li>eric claptin</li>
+                        <li>elden ring</li>
+                    </ul>
+                </aside>
+
+                <aside class="caixa-conteudo">
+                    <h2 class="titulo-conteudo">News</h2>
+                    <div class="caixa-news">
+                        <label for="email"><strong>Email:</strong></label>
+                        <input type="email" placeholder="Email" id="email">
+                        <input type="button" value="Cadastrar" id="butao-cadastrar">
+                    </div>
+                </aside>
+            </section>
         </main>
 
     </div>
@@ -50,4 +110,5 @@
         </div>
     </footer>
 </body>
+
 </html>

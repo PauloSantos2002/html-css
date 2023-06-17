@@ -38,7 +38,7 @@ header{
 #menu-principal ul{
     display:flex;
     list-style: none;
-    margin-top: 30px;    
+    padding: 30px 10px;    
 }
 #menu-principal ul li{
     background-color: #b10333;
@@ -54,21 +54,21 @@ header{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 /* Cabeçalho/Topo - fim */
 
 /* inicio principal */
-main{
+section{
     background-color: #f5f5f5;
 }
-#primario{
+ #primario{ /*tres colunas na página */
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
 }
 .duas-colunas #primario{
-    width: 555px;
-    
+    width: 550px;
 }
 .uma-coluna #primario{
     width: 750px;
@@ -80,26 +80,102 @@ main{
     float: left;
     margin: 0 0 20px 15px;
 }
+.caixa-conteudo{
+    margin-bottom: 20px;
+}
+.caixa-conteudo> h3{
+    background-color: #b10333;
+    color: #fff;
+    border: 1px solid brown;
+    padding: 3px;
+    display: inline;
+    text-transform: uppercase;
 
-#lateral{
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
 }
 .titulo-conteudo{
+    font-size: 1.5em;
     background-color: #294c71;
     color: white;
     padding: 5px;
     margin-bottom: 15px;
 }
-#lateral ul{
+.paragrafo-conteudo{
+    font-size: 1.2em;
+    margin: 5px;
+}
+.paragrafo-conteudo a{
+    color: #b10333;
+    text-decoration: underline;
+}
+.foto{
+    width: 95%;
+    margin: 5px;
+    border: 2px solid #dfdfdf;
+}
+.lista-noticias li{
+    margin-bottom: 5px;
+    padding: 5px;
+    height: 85px;
+}
+.lista-noticias li a img{
+    width: 6em;
+    float: left;
+    margin: 5px;
+}
+.lista-noticias li p{
+    font-size: .8em;
+}
+.lista-noticias li h3{
+    font-size: 1.1em;
+
+}
+/* Menus laterais */
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+
+ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 #lateral li{
     padding: 5px;
     text-transform: capitalize;
+    font-weight: bold;
 }
-
+#lateral li:hover{
+    color: gray;
+    scale: 1.1;
+    cursor: pointer;
+}
+.caixa-conteudo ul{
+    margin: 25px 10px;
+    
+}
+.caixa-news{
+    margin: 10px;
+}
+.caixa-news #email{
+    border: none;
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.caixa-news #butao-cadastrar{
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    background: #b10333;
+    color: #fff;
+}
+.caixa-news #butao-cadastrar:hover{
+    background-color: #680404;
+    cursor: pointer;
+}
 /* fim principal */
 
 footer{
