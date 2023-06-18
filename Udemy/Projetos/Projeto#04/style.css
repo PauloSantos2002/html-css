@@ -117,13 +117,17 @@ section{
     padding: 5px;
     height: 85px;
 }
+.lista-noticias li:hover{
+    scale: .9;
+    background-color: rgb(204, 201, 201);
+}
 .lista-noticias li a img{
-    width: 6em;
+    width: 6.5em;
     float: left;
     margin: 5px;
 }
 .lista-noticias li p{
-    font-size: .8em;
+    font-size: .9em;
 }
 .lista-noticias li h3{
     font-size: 1.1em;
