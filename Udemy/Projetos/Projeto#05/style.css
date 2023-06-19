@@ -10,6 +10,7 @@ body{
 a{
     cursor: pointer;
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style: none;
@@ -99,20 +100,61 @@ a.reserva{
     width: 226px;
     height: 164px;
     float: right;
+    margin-right: 15px;
 }
 /* final cabeçalho */
+h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0;
+}
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+
 #area-principal{
     float: left;
     width: 50%;
     background: url(imagens/bg-area-principal.png) top left repeat-x;
     padding: 15px 0;
+    
 }
+
+
+
+
 #area-lateral{
     float: right;
     width: 50%;
     background: url(imagens/bg-area-lateral.png) top left repeat-x;
     padding: 20px 0;
 }
+.lista-beneficios li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+}
+.lista-beneficios li:hover{
+    background-color: #f6f3d6;
+    scale: 1.1;
+}
+.lista-beneficios img{
+    float: left;
+    width: 150px;
+    margin-right: 8px;
+}
+.lista-beneficios a h3{
+    font-size: 1.1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(imagens/ornamento.png) no-repeat center right;
+}
+.lista-beneficios a p{
+    font-size: .8em;
+}
+
 .conteudo{
     margin: auto;
     width: 90%  ;
@@ -121,4 +163,8 @@ a.reserva{
 
 footer{
     clear: both;
+    padding: 16px;
+    background: #fff url(imagens/bg-rodape.png) repeat-x top;
+    text-align: center;
+    color: #7d7640;
 }
