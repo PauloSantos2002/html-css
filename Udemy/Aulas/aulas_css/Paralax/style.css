@@ -1,5 +1,8 @@
-html, body{
+*{
+    padding: 0;
     margin: 0;
+}
+html, body{
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
     color: #777;
@@ -18,18 +21,18 @@ h3{
     text-align: center;
 }
 #titulo{
-    display: block;
-    position: relative;
-    left: 35%;
-    top: 45%;
-    padding: 15px;
+    padding: 20px;
     background-color: #000000ad;
     width: 30%;
+    min-width: 150px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
 }
 .imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
