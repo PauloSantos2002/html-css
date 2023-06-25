@@ -1,0 +1,81 @@
+body{
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "Lucinda Grande", "Lucinda Sans Unicode", "Arial", sans-serif;
+}
+#conteiner{
+    width: 1080px;
+    margin: 0 auto;
+}
+a{
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;
+}
+/* Logo 
+ ------------------------------------------- */
+#logo a{
+    display: block;
+    text-indent: -9999px;
+    width: 248px;
+    height: 21px;
+    background: url(../img/logo.png) no-repeat;
+}
+/* Barra de Navegação
+ ------------------------------------------- */
+header{
+    padding: 15px 0;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    margin: 0 0 0 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
+
+/* Principal
+ ------------------------------------------- */
+ article{
+    width: 710px;
+    float: left;
+    background: green;
+ }
+ aside{
+    width: 350px;
+    float: right;
+    background: #ebe7bb;
+ }
+
+ section#visita{
+    background: #cdc8c1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+ }
+ section h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+ }
+
+ input{
+    height: 20px;
+    background: #fff;
+    border: none;
+ }

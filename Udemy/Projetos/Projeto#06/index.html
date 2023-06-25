@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/sytle.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <title>Museu Nacional</title>
+</head>
+<body>
+    <div id="conteiner">
+        <header>
+            <div id="logo">
+                <a href="">MuseuNacional</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposição</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Principal -->
+            <article>
+                <section id="capa">
+                    <img src="img/museu.png" alt="">
+                </section>
+
+                <div class="">
+                    <section>
+                        <img src="img/imagem1.jpg" alt="">
+                    </section>
+                    <section>
+                        <img src="img/imagem2.jpg" alt="">
+                </div>
+                </section>
+            </article>
+            <!-- Lateral -->
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione a Data</legend>
+                            <label for="data">Data</label>
+                            <input type="date" id="data" value="dd/mm/aa">
+                            <br> 
+                            <label for="qtd-pessoas">Quantidade</label>   
+                            <input type="number" id="qtd-pessoas" min="1" value="1">
+                        </fieldset>
+                        <input type="submit" value="Verificar Disponibilidade">
+                    </form>
+                </section>
+            </aside>
+        </main>
+    </div>
+</body>
+</html>
