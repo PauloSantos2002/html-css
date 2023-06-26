@@ -31,7 +31,9 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
+main{
+    margin-bottom: 20px;
+}
 nav ul{
     display: flex;
     justify-content: end;
@@ -54,16 +56,37 @@ nav ul li a:hover{
  article{
     width: 710px;
     float: left;
-    background: green;
+    margin-bottom: 20px;
  }
  aside{
     width: 350px;
     float: right;
     background: #ebe7bb;
+    padding-bottom: 30px;
  }
+h3{
+    color: #15460d;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.postagens{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.postagens article{
+    margin-left: 30px;
+    text-align: justify;
+    line-height: 1.2em;    
+}
 
+
+
+
+ /* Lateral
+  ------------------------------------------- */
  section#visita{
-    background: #cdc8c1;
+    background: #ccb9a0;
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
  }
@@ -75,7 +98,48 @@ nav ul li a:hover{
  }
 
  input{
+    width: 90%;
     height: 20px;
     background: #fff;
-    border: none;
+    border: none; 
+    margin: 0px 10px;
  }
+ form > input{
+    height: 40px;
+    background-color: #665340;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 5px;
+ }
+ fieldset{
+    border: none;
+    padding: 10px;
+
+    display: flex;
+ }
+
+#galeria{
+    padding: 10px;
+}
+#galeria a{
+    display: block;
+    background: url(../img/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 15px;
+    margin: 15px;
+}
+#galeria a img{
+    margin: 3px 4px 0px 1px;
+}
+footer{
+    clear: both;
+    background: url(../img/fundo-rodape.png) no-repeat top center;
+    margin: auto;
+    padding: 20px 0 30px 0;
+    font-weight: bold;
+    text-align: center;
+}
+footer a{
+    padding: 10px 20px;
+}
